@@ -1,0 +1,58 @@
+.body-caption h1{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.body-caption-2 h1{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.body-caption h3{
+    padding-top: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.body-caption .body-text{
+    position: relative;
+    top: -25px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px) {
+    .body-caption h1{
+        position: relative;
+        top: -50px;
+        font-size: 2rem;
+        padding-top: 0px;
+    }
+        .body-caption-2 h1{
+        position: relative;
+        top: 0px;
+        font-size: 2rem;
+        padding-top: 0px;
+    }
+}
+@media (max-width: 480px){
+    .service-body{
+        position: relative;
+        top: -50px;
+    }
+} 
+
+@media (max-width: 375px) {
+    .body-caption h1{
+        position: relative;
+        top: -50px;
+        font-size: 1.5rem;
+        padding-top: 0px;
+    }
+        .body-caption-2 h1{
+        position: relative;
+        top: 0px;
+        font-size: 1.5rem;
+        padding-top: 0px;
+    }
+
+    
+}

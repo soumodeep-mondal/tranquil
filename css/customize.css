@@ -1,0 +1,48 @@
+/********** Template CSS **********/
+:root {
+    --primary: #07e042;
+    --secondary: #FAFA33;
+    --hover:#07e042;
+    --light: #F8F9FA;
+    --dark: #182333;
+
+}
+
+#contact-now-btn{
+    padding: 5px 10px 5px 10px;
+    border-radius: 0.2rem ;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #07e042;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    background-color: var(--secondary);
+}
+
+.img-hover img{
+    opacity: 0.5;
+}
+.img-hover img:hover{
+    opacity: 1;
+}
+
+
+    /* owl btn css */
+            .owl-carousel{
+                text-align: center;
+                }
+
+                .owl-prev , .owl-next{
+                position: absolute;
+                top:110px;
+                }
+                .owl-prev span, .owl-next span{
+                    display: none;
+                }
+           
+                .owl-theme .owl-dots .owl-dot.active span,
+                .owl-theme .owl-dots .owl-dot:hover span {
+                    background: #00ffa5;
+                }
+
